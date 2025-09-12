@@ -71,6 +71,8 @@ A **secure console-based ATM system** built in Python with MySQL integration.
 
 ![Pratyush's GitHub stats](https://github-readme-stats.vercel.app/api?username=PR0801&show_icons=true&theme=tokyonight)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PR0801&layout=compact&theme=tokyonight)  
+![Pratyush's Trophies](https://github-profile-trophy.vercel.app/?username=PR0801&theme=tokyonight&no-frame=true&margin-w=5&margin-h=5)
+
 
 ---
 
