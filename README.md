@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Pratyush Raunak  
 
-🎯 **Machine Learning | AI Enthusiast | Open-Source Contributor**  
+🎯 **Machine Learning | AI Enthusiast | Open-Source Contributor | UI/UX Designer**  
 
 📍 West Bengal, India  
 📧 [Email](mailto:pratyushraunak2019@gmail.com) 
