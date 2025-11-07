@@ -2,9 +2,9 @@
 
 🎯 **Machine Learning | AI Enthusiast | Open-Source Contributor | UI/UX Designer**  
 
-📍 West Bengal, India  
-📧 [Email](mailto:pratyushraunak2019@gmail.com) 
-🔗 [LinkedIn](http://www.linkedin.com/in/pratyush-raunak-pr0801) | [GitHub](https://github.com/PR0801) | [HackerRank](https://www.hackerrank.com/profile/pratyushraunak21)  
+ West Bengal, India  
+ [Email](mailto:pratyushraunak2019@gmail.com) 
+[LinkedIn](http://www.linkedin.com/in/pratyush-raunak-pr0801) | [GitHub](https://github.com/PR0801) | [HackerRank](https://www.hackerrank.com/profile/pratyushraunak21)  
 
 ---
 
