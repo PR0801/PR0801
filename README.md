@@ -20,9 +20,9 @@ Always eager to learn, contribute, and create impactful solutions!
 
 - **Languages:** C, C++, Python, Java, Kotlin, SQL, HTML, CSS  
 - **AI & ML:** Machine Learning, Artificial Intelligence, Generative AI  
-- **Libraries/Frameworks:** NumPy, Pandas, Matplotlib, Seaborn, TensorFlow, Tkinter  
+- **Libraries/Frameworks:** NumPy, Pandas, Matplotlib, Seaborn, TensorFlow, Flask, Tkinter, mysql.connector
 - **Databases:** MySQL  
-- **Tools & Platforms:** Git, GitHub, AWS, Alteryx, Blue Prism, Figma, Adobe Photoshop, Zscaler, Linux  
+- **Tools & Platforms:** Git, GitHub, AWS, IBM Cloud, Alteryx, Blue Prism, VS Code, Figma, Adobe Photoshop, Zscaler, Linux  
 
 ---
 
