@@ -27,6 +27,7 @@ Always eager to learn, contribute, and create impactful solutions!
 ---
 
 ##  Projects  
+---
 
 ### [Traffic-Management-System](https://github.com/PR0801/Traffic-Management-System)
 **An AI-driven Traffic Management System leveraging YOLOv8 and real-time video analytics to detect vehicles, predict congestion, and automate traffic signal control for smarter urban mobility.**
@@ -35,14 +36,13 @@ Always eager to learn, contribute, and create impactful solutions!
 -Centralized dashboard to monitor multiple intersections, view live counts/overlays, and manage signals intelligently.
 -Automated traffic-light timing based on detected traffic levels and predictive analytics.
 -Visual analytics module: real-time charts, historical traffic-flow trends, congestion heat-maps, and anomaly alerts.
----
+
 
 ### [Salary_Prediction](https://github.com/PR0801/Salary_Prediction) 
 **A machine-learning–based Salary Prediction System built using Python, Flask, and scikit-learn.**
 -Predicts salary based on age, gender, education, job role & experience
 -Automated preprocessing with encoding, scaling & ensemble modeling
 -Real-time prediction through a clean Flask web interface
----
 
 ### [Indilink](https://github.com/PR0801/Indilink)  
 An **AI-powered web platform** connecting Indian artisans with the global diaspora.  
