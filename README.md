@@ -59,25 +59,25 @@ A **secure console-based ATM system** built in Python with MySQL integration.
 
 ## 🎓 Certifications  
 
--Machine Learning – Internshala
--AICTE [Cohort 13] – AWS Cloud Virtual Internship (Jul–Sep 2025) – Eduskills Foundation
--AICTE [Cohort 12] – AWS AI-ML Virtual Internship (Apr–Jun 2025) – Eduskills Foundation
--AICTE [Cohort 11] – Google Cloud Generative AI Virtual Internship (Jan–Mar 2025) – Eduskills Foundation
--AICTE [Cohort 10] – Zscaler Zero Trust Cloud Security Virtual Internship (Oct–Dec 2024) – Eduskills Foundation
--AICTE [Cohort 9] – Data Analytics Process Automation Virtual Internship (Jul–Sep 2024) – Eduskills Foundation
--AICTE [Cohort 8] – AI-ML Virtual Internship (Apr–Jun 2024) – Eduskills Foundation
--AICTE [Cohort 7] – Android Developer Virtual Internship (Jan–Mar 2024) – Eduskills Foundation
--AICTE [Cohort 6] – Intelligent Automation Virtual Internship (Sep–Nov 2023) – Eduskills Foundation
--AWS Academy Graduate – Cloud Architecting – AWS Training & Certification
--AWS Academy Graduate – Machine Learning Foundations – AWS Training & Certification
--AWS Academy Graduate – Cloud Foundations – AWS Training & Certification
--Introduction to Generative AI – Google Cloud Skills Boost
--Zscaler Cyber Security Fundamentals – Zscaler Academy
--Alteryx Designer Core Certified – Alteryx
--Blue Prism Associate Developer – SS&C Blue Prism
--Blue Prism Foundation Training – SS&C Blue Prism
-Master Figma: UI/UX Design Tools – PW Skills
--Skill Booster Program – Skill Academia
+- Machine Learning – Internshala
+- AICTE [Cohort 13] – AWS Cloud Virtual Internship (Jul–Sep 2025) – Eduskills Foundation
+- AICTE [Cohort 12] – AWS AI-ML Virtual Internship (Apr–Jun 2025) – Eduskills Foundation
+- AICTE [Cohort 11] – Google Cloud Generative AI Virtual Internship (Jan–Mar 2025) – Eduskills Foundation
+- AICTE [Cohort 10] – Zscaler Zero Trust Cloud Security Virtual Internship (Oct–Dec 2024) – Eduskills Foundation
+- AICTE [Cohort 9] – Data Analytics Process Automation Virtual Internship (Jul–Sep 2024) – Eduskills Foundation
+- AICTE [Cohort 8] – AI-ML Virtual Internship (Apr–Jun 2024) – Eduskills Foundation
+- AICTE [Cohort 7] – Android Developer Virtual Internship (Jan–Mar 2024) – Eduskills Foundation
+- AICTE [Cohort 6] – Intelligent Automation Virtual Internship (Sep–Nov 2023) – Eduskills Foundation
+- AWS Academy Graduate – Cloud Architecting – AWS Training & Certification
+- AWS Academy Graduate – Machine Learning Foundations – AWS Training & Certification
+- AWS Academy Graduate – Cloud Foundations – AWS Training & Certification
+- Introduction to Generative AI – Google Cloud Skills Boost
+- Zscaler Cyber Security Fundamentals – Zscaler Academy
+- Alteryx Designer Core Certified – Alteryx
+- Blue Prism Associate Developer – SS&C Blue Prism
+- Blue Prism Foundation Training – SS&C Blue Prism
+- Master Figma: UI/UX Design Tools – PW Skills
+- Skill Booster Program – Skill Academia
 
 ---
 
