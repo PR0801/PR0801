@@ -28,7 +28,6 @@ Always eager to learn, contribute, and create impactful solutions!
 
 ##  Projects  
 ---
-
 ### [Traffic-Management-System](https://github.com/PR0801/Traffic-Management-System)
 **An AI-driven Traffic Management System leveraging YOLOv8 and real-time video analytics to detect vehicles, predict congestion, and automate traffic signal control for smarter urban mobility.**
 -AI-powered urban traffic control platform using real-time video feeds and computer vision (with YOLOv8) for vehicle detection and classification.
