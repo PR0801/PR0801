@@ -1,8 +1,9 @@
 name: Daily README update
 
 on:
+  # Run everyday at midnight IST (18:30 UTC)
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "30 18 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -16,11 +17,11 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # get full history so pull/rebase works
+          fetch-depth: 0
 
-      - name: Update "Last updated" line in README
+      - name: Update "Last updated" line in README (IST)
         run: |
-          DATE_STR="$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          DATE_STR="$(TZ='Asia/Kolkata' date '+%A, %d %B %Y - %I:%M:%S %p IST')"
 
           if grep -q '^Last updated:' README.md; then
             sed -i "s/^Last updated:.*/Last updated: ${DATE_STR}/" README.md
@@ -33,24 +34,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Configure git
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
 
-          # Stage file
           git add README.md
 
-          # If nothing changed, exit
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
 
-          # Commit
           git commit -m "chore: daily README update"
 
-          # Sync with remote (avoid non-fast-forward error)
+          # Avoid rejected push
           git pull --rebase origin "${GITHUB_REF_NAME}"
 
-          # Push updated branch
           git push origin HEAD:"${GITHUB_REF_NAME}"
