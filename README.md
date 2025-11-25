@@ -93,7 +93,9 @@ A **secure console-based ATM system** built in **Python with MySQL integration**
 
 <div align="center">
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=PR0801&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=PR0801&theme=tokyonight&hide_border=true)
+
+
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PR0801&layout=compact&theme=tokyonight&hide_border=true)
 
