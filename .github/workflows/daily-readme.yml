@@ -1,9 +1,8 @@
 name: Daily README update
 
 on:
-  # Run everyday at midnight IST (18:30 UTC)
   schedule:
-    - cron: "30 18 * * *"
+    - cron: "30 18 * * *"   # Everyday at midnight IST
   workflow_dispatch: {}
 
 permissions:
@@ -19,15 +18,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Update "Last updated" line in README (IST)
+      - name: Update day + date in README (IST)
         run: |
-          DATE_STR="$(TZ='Asia/Kolkata' date '+%A, %d %B %Y - %I:%M:%S %p IST')"
+          DATE_STR="$(TZ='Asia/Kolkata' date '+%A, %d %B %Y')"
 
-          if grep -q '^Last updated:' README.md; then
-            sed -i "s/^Last updated:.*/Last updated: ${DATE_STR}/" README.md
+          # Replace the entire line that starts with the date pattern (weekday)
+          if grep -E '^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),' README.md; then
+            sed -i "s/^\(Monday\|Tuesday\|Wednesday\|Thursday\|Friday\|Saturday\|Sunday\),.*/${DATE_STR}/" README.md
           else
             echo "" >> README.md
-            echo "Last updated: ${DATE_STR}" >> README.md
+            echo "${DATE_STR}" >> README.md
           fi
 
       - name: Commit and push if changed
@@ -44,9 +44,6 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: daily README update"
-
-          # Avoid rejected push
+          git commit -m "chore: daily date update"
           git pull --rebase origin "${GITHUB_REF_NAME}"
-
           git push origin HEAD:"${GITHUB_REF_NAME}"
