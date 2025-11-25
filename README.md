@@ -93,7 +93,8 @@ A **secure console-based ATM system** built in **Python with MySQL integration**
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=PR0801&theme=tokyonight&hide_border=true)
+[![GitHub Streak](https://streak-stats.demolab.com?user=PR0801&theme=tokyonight&hide_border=true)](https://streak-stats.demolab.com?user=PR0801&theme=tokyonight&hide_border=true
+)
 
 
 
