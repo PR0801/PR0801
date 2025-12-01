@@ -97,9 +97,6 @@ A **secure console-based ATM system** built in **Python with MySQL integration**
 
 
 
-
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=PR0801&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800)
-
 </div>
 
 ---
