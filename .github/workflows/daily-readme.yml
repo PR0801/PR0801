@@ -2,8 +2,8 @@ name: Daily README update
 
 on:
   schedule:
-    - cron: "30 18 * * *"   # Everyday at midnight IST
-  workflow_dispatch: {}
+    - cron: "30 18 * * *"   # 12:00 AM IST
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,29 +13,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Update day + date in README (IST)
+      - name: Update date in README (IST)
         run: |
           DATE_STR="$(TZ='Asia/Kolkata' date '+%A, %d %B %Y')"
 
-          # Replace the entire line that starts with the date pattern (weekday)
-          if grep -E '^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),' README.md; then
-            sed -i "s/^\(Monday\|Tuesday\|Wednesday\|Thursday\|Friday\|Saturday\|Sunday\),.*/${DATE_STR}/" README.md
+          if grep -Eq '^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),' README.md; then
+            sed -i -E "s/^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),.*/${DATE_STR}/" README.md
           else
             echo "" >> README.md
             echo "${DATE_STR}" >> README.md
           fi
 
-      - name: Commit and push if changed
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push changes
         run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add README.md
 
@@ -45,5 +43,4 @@ jobs:
           fi
 
           git commit -m "chore: daily date update"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin HEAD:"${GITHUB_REF_NAME}"
+          git push
