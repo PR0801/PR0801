@@ -4,7 +4,7 @@
 
 📍 West Bengal, India  
 📧 [Email](mailto:pratyushraunak2019@gmail.com)  
-🌐 [LinkedIn](https://www.linkedin.com/in/pratyush-raunak-pr0801) | [GitHub](https://github.com/PR0801) | [HackerRank](https://www.hackerrank.com/profile/pratyushraunak21)  
+🌐 [LinkedIn](https://www.linkedin.com/in/pratyush-raunak-pr0801) | [GitHub](https://github.com/PR0801) | [HackerRank](https://www.hackerrank.com/profile/pratyushraunak21)   | [Portfolio](https://pratyush-raunak-portfolio.vercel.app)
 
 ---
 
@@ -18,11 +18,11 @@ I love building **AI-powered applications**, contributing to **open-source proje
 
 ## 🛠️ Skills  
 
-- **Languages:** C, C++, Python, Java, Kotlin, SQL, HTML, CSS  
-- **AI & ML:** Machine Learning, Artificial Intelligence, Generative AI  
-- **Libraries/Frameworks:** NumPy, Pandas, Matplotlib, Seaborn, TensorFlow, Flask, Tkinter, mysql.connector  
-- **Databases:** MySQL  
-- **Tools & Platforms:** Git, GitHub, AWS, IBM Cloud, Alteryx, Blue Prism, VS Code, Figma, Adobe Photoshop, Zscaler, Linux  
+- **Spoken Languages:** English, Hindi, Bengali, French (basic)
+- **Programming Languages:** Python, C++, Java, C, SQL, HTML, CSS
+- **AI/ML:** Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Generative AI
+- **Frameworks & Libraries:** TensorFlow, Scikit-learn, OpenCV, Flask, Pandas, NumPy, Matplotlib, Seaborn, Tkinter, MySQL Connector, REST APIs
+- **Databases & Tools:** MySQL, Git, GitHub, AWS, IBM Cloud, Linux, VS Code, Figma
 
 ---
 
@@ -60,9 +60,8 @@ A **secure console-based ATM system** built in **Python with MySQL integration**
 - Robust error handling for secure operations  
 
 ---
----
 
-### 🏧 {Binance Trading Bot](https://github.com/PR0801/Binance-Trading-Bot)  
+### 🏧 [Binance Trading Bot](https://github.com/PR0801/Binance-Trading-Bot)  
 A **Python-based Binance Futures trading bot** built for **USDT-M Testnet trading.**  
 - MARKET & LIMIT order execution (BUY / SELL)  
 - Secure API-based authentication & validation 
