@@ -61,7 +61,7 @@ A **secure console-based ATM system** built in **Python with MySQL integration**
 
 ---
 
-### 🏧 [Binance Trading Bot](https://github.com/PR0801/Binance-Trading-Bot)  
+### 💹 [Binance Trading Bot](https://github.com/PR0801/Binance-Trading-Bot)  
 A **Python-based Binance Futures trading bot** built for **USDT-M Testnet trading.**  
 - MARKET & LIMIT order execution (BUY / SELL)  
 - Secure API-based authentication & validation 
