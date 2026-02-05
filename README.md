@@ -60,10 +60,20 @@ A **secure console-based ATM system** built in **Python with MySQL integration**
 - Robust error handling for secure operations  
 
 ---
+---
+
+### 🏧 {Binance Trading Bot](https://github.com/PR0801/Binance-Trading-Bot)  
+A **Python-based Binance Futures trading bot** built for **USDT-M Testnet trading.**  
+- MARKET & LIMIT order execution (BUY / SELL)  
+- Secure API-based authentication & validation 
+- CLI dashboard with logging and order tracking
+---
 
 ## 🎓 Certifications  
 
-- Machine Learning – Internshala  
+- IBM PBEL Virtual Internship in AIML 
+- Machine Learning – Internshala
+- AICTE [Cohort 13] – AWS Data Engineering Virtual Internship (Ocy - Dec 2025) – Eduskills Foundation  
 - AICTE [Cohort 13] – AWS Cloud Virtual Internship (Jul–Sep 2025) – Eduskills Foundation  
 - AICTE [Cohort 12] – AWS AI-ML Virtual Internship (Apr–Jun 2025) – Eduskills Foundation  
 - AICTE [Cohort 11] – Google Cloud Generative AI Virtual Internship (Jan–Mar 2025) – Eduskills Foundation  
@@ -81,12 +91,6 @@ A **secure console-based ATM system** built in **Python with MySQL integration**
 - Skill Booster Program – Skill Academia  
 
 ---
-
-## 🏅 Honors & Awards  
-
-- 🥇 **Smart India Hackathon 2024 – Finalist**  
-- 🥇 **Smart India Hackathon 2025 – Finalist**  
-
 ---
 
 ## 📊 GitHub Stats  
