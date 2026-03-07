@@ -35,7 +35,7 @@ jobs:
       - name: Commit and push
         run: |
           git config user.name "Pratyush Raunak"
-          git config user.email "YOUR_GITHUB_NOREPLY_EMAIL"
+          git config user.email "180762847+PR0801@users.noreply.github.com"
 
           git add README.md
           git commit -m "chore: daily README update"
