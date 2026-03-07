@@ -15,14 +15,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
 
-      - name: Update date in README (IST)
+      - name: Update README with date (IST)
         run: |
           DATE_STR="$(TZ='Asia/Kolkata' date '+%A, %d %B %Y')"
+          TIMESTAMP="$(TZ='Asia/Kolkata' date '+%H:%M:%S')"
 
+          # Replace existing date line if present
           if grep -Eq '^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),' README.md; then
             sed -i -E "s/^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),.*/${DATE_STR}/" README.md
           else
@@ -30,17 +29,14 @@ jobs:
             echo "${DATE_STR}" >> README.md
           fi
 
-      - name: Commit and push changes
+          # Add timestamp comment to ensure change every run
+          echo "<!-- updated ${TIMESTAMP} IST -->" >> README.md
+
+      - name: Commit and push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Pratyush Raunak"
+          git config user.email "YOUR_GITHUB_NOREPLY_EMAIL"
 
           git add README.md
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-
-          git commit -m "chore: daily date update"
+          git commit -m "chore: daily README update"
           git push
