@@ -1,41 +1,50 @@
 name: Daily README Update
 
 on:
-schedule:
-- cron: '40 18 * * *'
-workflow_dispatch:
+  schedule:
+    - cron: "40 18 * * *"
+  workflow_dispatch:
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-update-readme:
-runs-on: ubuntu-latest
+  update-readme:
+    runs-on: ubuntu-latest
 
-steps:
-  - name: Checkout repository
-    uses: actions/checkout@v4
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-  - name: Update README
-    run: |
-      DATE_STR="$(TZ='Asia/Kolkata' date '+%A, %d %B %Y')"
-      TIMESTAMP="$(TZ='Asia/Kolkata' date '+%H:%M:%S')"
+      - name: Update README with date (IST)
+        run: |
+          DATE_STR="$(TZ='Asia/Kolkata' date '+%A, %d %B %Y')"
+          TIMESTAMP="$(TZ='Asia/Kolkata' date '+%H:%M:%S')"
 
-      echo "$DATE_STR" > README.md
-      echo "<!-- updated $TIMESTAMP IST -->" >> README.md
+          if grep -Eq '^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),' README.md; then
+            sed -i -E "s/^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),.*/${DATE_STR}/" README.md
+          else
+            echo "" >> README.md
+            echo "${DATE_STR}" >> README.md
+          fi
 
-  - name: Commit and push
-    run: |
-      git config user.name "Pratyush Raunak"
-      git config user.email "180762847+PR0801@users.noreply.github.com"
+          if grep -q '<!-- updated .* IST -->' README.md; then
+            sed -i -E "s/<!-- updated .* IST -->/<!-- updated ${TIMESTAMP} IST -->/" README.md
+          else
+            echo "<!-- updated ${TIMESTAMP} IST -->" >> README.md
+          fi
 
-      git add README.md
+      - name: Commit and push changes
+        run: |
+          git config user.name "Pratyush Raunak"
+          git config user.email "180762847+PR0801@users.noreply.github.com"
 
-      if git diff --cached --quiet; then
-        echo "No changes"
-        exit 0
-      fi
+          git add README.md
 
-      git commit -m "chore: daily README update"
-      git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
 
+          git commit -m "chore: daily README update"
+          git push
