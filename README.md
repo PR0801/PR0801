@@ -37,6 +37,14 @@ An **AI-driven Traffic Management System** leveraging **YOLOv8** and real-time v
 
 ---
 
+### 💳 Credit Card Fraud Detection System
+An **intelligent fraud detection platform** leveraging machine learning and network analysis to detect high-risk financial transactions.
+- Random Forest classifier with graph-based feature engineering
+- Real-time fraud prediction, risk scoring, and analytics dashboard
+- Flask backend with Vercel-ready serverless deployment
+
+---
+
 ### 💸 [Salary Prediction](https://github.com/PR0801/Salary_Prediction) 
 A **machine learning–based Salary Prediction System** built using **Python, Flask, and scikit-learn**.  
 - Predicts salary based on age, gender, education, job role & experience  
@@ -61,12 +69,38 @@ A **secure console-based ATM system** built in **Python with MySQL integration**
 
 ---
 
+### 💰 FINTRACK
+A **backend finance tracking system** built with Flask and MySQL for secure transaction management and analytics.
+- RESTful APIs for income, expense, and user management
+- Role-based authorization with validation and error handling
+- Financial summaries, filtering, and modular layered architecture
+
+---
+  
 ### 💹 [Binance Trading Bot](https://github.com/PR0801/Binance-Trading-Bot)  
 A **Python-based Binance Futures trading bot** built for **USDT-M Testnet trading.**  
 - MARKET & LIMIT order execution (BUY / SELL)  
 - Secure API-based authentication & validation 
 - CLI dashboard with logging and order tracking
+
 ---
+
+### 🌱 CarbonWise AI
+An **AI-powered sustainability platform** that helps users calculate and reduce their carbon footprint through personalized insights.
+- Carbon footprint calculator with environmental impact analytics
+- AI-driven sustainability recommendations and goal tracking
+- Built with Next.js, TypeScript, Tailwind CSS, and Vercel
+
+---
+  
+### 🏋️ FitTrackerAI
+An **AI-inspired fitness tracking application** that delivers personalized health insights and wellness recommendations.
+- BMI, calorie, hydration, and health score analysis
+- Customized diet and workout plans based on user goals
+- Interactive dashboard with responsive web interface
+
+---
+
 
 ## 🎓 Certifications  
 
