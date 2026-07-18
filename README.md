@@ -37,7 +37,7 @@ An **AI-driven Traffic Management System** leveraging **YOLOv8** and real-time v
 
 ---
 
-### 💳 Credit Card Fraud Detection System
+### 💳 [Credit Card Fraud Detection System](https://github.com/PR0801/Credit-Card-Fraud-Detection)
 An **intelligent fraud detection platform** leveraging machine learning and network analysis to detect high-risk financial transactions.
 - Random Forest classifier with graph-based feature engineering
 - Real-time fraud prediction, risk scoring, and analytics dashboard
@@ -69,7 +69,7 @@ A **secure console-based ATM system** built in **Python with MySQL integration**
 
 ---
 
-### 💰 FINTRACK
+### 💰 [FINTRACK](https://github.com/PR0801/FINTRACK)
 A **backend finance tracking system** built with Flask and MySQL for secure transaction management and analytics.
 - RESTful APIs for income, expense, and user management
 - Role-based authorization with validation and error handling
@@ -85,7 +85,7 @@ A **Python-based Binance Futures trading bot** built for **USDT-M Testnet tradin
 
 ---
 
-### 🌱 CarbonWise AI
+### 🌱 [CarbonWise AI](https://github.com/PR0801/CarbonWise-AI)
 An **AI-powered sustainability platform** that helps users calculate and reduce their carbon footprint through personalized insights.
 - Carbon footprint calculator with environmental impact analytics
 - AI-driven sustainability recommendations and goal tracking
@@ -93,7 +93,7 @@ An **AI-powered sustainability platform** that helps users calculate and reduce 
 
 ---
   
-### 🏋️ FitTrackerAI
+### 🏋️ [FitTrackerAI](https://github.com/PR0801/FitTrackerAI)
 An **AI-inspired fitness tracking application** that delivers personalized health insights and wellness recommendations.
 - BMI, calorie, hydration, and health score analysis
 - Customized diet and workout plans based on user goals
